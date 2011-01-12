@@ -1,0 +1,25 @@
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>google-url-shortener</artifactId>
+  <packaging>zip</packaging>
+  <version>0.1</version>
+  <name>Google URL Shortener Service</name>
+  <description>\
+This plugins provides a abstraction layer around the google URL shortener service, you can shorten, expand and retrieve analytics from URL following the grails conventions.
+</description>
+  <url>http://grails.org/plugin/google-url-shortener</url>
+  <developers>
+    <developer>
+      <name>Sebastien Blanc</name>
+      <email>sblanc@e-id.nl</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>rest</artifactId>
+      <version>0.6</version>
+    </dependency>
+  </dependencies>
+</project>

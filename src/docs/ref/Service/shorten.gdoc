@@ -1,0 +1,20 @@
+
+h1. shorten
+
+h2. Purpose
+
+
+
+h2. Examples
+
+{code:java}
+foo.shorten()
+{code}
+
+h2. Description
+
+
+
+Arguments:
+
+[]

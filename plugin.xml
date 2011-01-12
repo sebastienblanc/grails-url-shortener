@@ -1,0 +1,24 @@
+<plugin name='google-url-shortener' version='0.1' grailsVersion='1.3.4 &gt; *'>
+  <author>Sebastien Blanc</author>
+  <authorEmail>sblanc@e-id.nl</authorEmail>
+  <title>Google URL Shortener Service</title>
+  <description>\
+This plugins provides a abstraction layer around the google URL shortener service, you can shorten, expand and retrieve analytics from URL following the grails conventions.
+</description>
+  <documentation>http://grails.org/plugin/google-url-shortener</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>org.grails.plugins.googleurlshortener.Analytics</resource>
+    <resource>org.grails.plugins.googleurlshortener.AnalyticsDetails</resource>
+    <resource>org.grails.plugins.googleurlshortener.AnalyticsDetailsFragment</resource>
+    <resource>org.grails.plugins.googleurlshortener.URLResource</resource>
+    <resource>org.grails.plugins.googleurlshortener.ShortenerService</resource>
+  </resources>
+  <dependencies>
+    <plugin name='rest' version='0.6' />
+  </dependencies>
+  <behavior />
+</plugin>

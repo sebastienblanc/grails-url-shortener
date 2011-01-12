@@ -1,0 +1,20 @@
+
+h1. expand
+
+h2. Purpose
+
+
+
+h2. Examples
+
+{code:java}
+foo.expand()
+{code}
+
+h2. Description
+
+
+
+Arguments:
+
+[]
